@@ -1,0 +1,21 @@
+How To Create a Glowing Animated Text Effect with CSS
+
+
+In this tutorial, you'll embark on an exciting journey of crafting a visually stunning HTML and CSS project. 
+Starting from scratch, you'll build an engaging webpage that showcases an animated, 
+glowing text effect using HTML and CSS.
+
+
+Begin by setting up a new HTML document. Declare the document type at the beginning using the appropriate declaration.
+Create the HTML structure. Start with the opening 'html' tag followed by 'head' and 'body' sections.
+Within the 'head' section, import an external font using the '@import' rule from Google Fonts.
+Inside the 'style' tags, define the CSS rules for various elements.
+Set an animation for the 'h1' elements using the 'glow' animation, defining text shadows in different colors and durations.
+Ensure proper box-sizing for all elements by using 'box-sizing: border-box' property.
+Set the background style for the body, including a background color, image, and ensuring it covers the entire viewport.
+Define the animation for the 'figure' element, using the 'wobble' animation with rotation values in different steps.
+Style the 'h1' elements with specific properties: font size, weight, text transformation, positioning, padding, line height, and color.
+Use 'transform' and 'translateZ' properties on multiple 'h1' elements to create a 3D effect with different translations.
+Within the 'body' section, create a 'figure' element to contain multiple 'h1' headings displaying the text "Be The Light".
+
+

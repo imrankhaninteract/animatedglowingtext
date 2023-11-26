@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Importing an external font from Google Fonts */
+      @import url(https://fonts.googleapis.com/css?family=Concert+One);
+
+      /* Applying animation to h1 elements */
+      h1 {
+        animation: glow 10s ease-in-out infinite; /* Animation duration, timing function, and iteration */
+      }
+
+      /* Ensuring box-sizing consistency for all elements */
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Styling for the webpage body */
+      body {
+        background: #0a0a0a; /* Background color */
+        overflow: hidden; /* Hiding overflowing content */
+        background-image: url("https://images.pexels.com/photos/12154466/pexels-photo-12154466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); /* Background image URL */
+        background-size: cover; /* Scaling the background image to cover the entire viewport */
+        height: 100vh; /* Setting the body height to match the viewport height */
+      }
+
+      /* Defining animation for the 'figure' element */
+      figure {
+        animation: wobble 5s ease-in-out infinite; /* Animation for the figure element */
+        transform-origin: center center; /* Setting the transform origin for the animation */
+        transform-style: preserve-3d; /* Preserving 3D transformations */
+      }
+ /* Keyframes for the 'wobble' animation */
+      @keyframes wobble {
+        0%,
+        100% {
+          transform: rotate3d(1, 1, 0, 40deg);
+        }
+        25% {
+          transform: rotate3d(-1, 1, 0, 40deg);
+        }
+        50% {
+          transform: rotate3d(-1, -1, 0, 40deg);
+        }
+        75% {
+          transform: rotate3d(1, -1, 0, 40deg);
+        }
+      }
+
+      /* Styling for h1 elements */
+      h1 {
+        display: block; /* Display as a block-level element */
+        width: 100%; /* Full width */
+        padding: 40px; /* Padding around the text */
+        line-height: 1.5; /* Spacing between lines of text */
+        font: 900 8em "Concert One", sans-serif; /* Font properties */
+        text-transform: uppercase; /* Convert text to uppercase */
+        position: absolute; /* Positioned absolutely within the figure element */
+        color: #0a0a0a; /* Text color */
+      }
+
+      /* Keyframes for the 'glow' animation */
+      @keyframes glow {
+        0%, 100% {
+          text-shadow: 0 0 30px red; /* Text shadow effect */
+        }
+        25% {
+          text-shadow: 0 0 30px orange; /* Text shadow effect at 25% of animation */
+        }
+        50% {
+          text-shadow: 0 0 30px forestgreen; /* Text shadow effect at 50% of animation */
+        }
+        75% {
+          text-shadow: 0 0 30px cyan; /* Text shadow effect at 75% of animation */
+        }
+      }
+
+      /* Applying different translations using transform and translateZ to create 3D effect */
+      h1:nth-child(2) {
+        transform: translateZ(5px);
+      }
+      h1:nth-child(3) {
+        transform: translateZ(10px);
+      }
+      h1:nth-child(4) {
+        transform: translateZ(15px);
+      }
+      h1:nth-child(5) {
+        transform: translateZ(20px);
+      }
+      h1:nth-child(6) {
+        transform: translateZ(25px);
+      }
+      h1:nth-child(7) {
+        transform: translateZ(30px);
+      }
+      h1:nth-child(8) {
+        transform: translateZ(35px);
+      }
+      h1:nth-child(9) {
+        transform: translateZ(40px);
+      }
+      h1:nth-child(10) {
+        transform: translateZ(45px);
+      }
+     
+    </style>
+  </head>
+  <body>
+    <!-- Creating a figure element to contain multiple h1 headings -->
+    <figure>
+      <!-- Displaying multiple h1 headings with the text "Be The Light" -->
+      <h1>Be The <br> Light</h1>
+      <h1>Be The <br> Light</h1>
+      <h1>Be The <br> Light</h1>
+      <h1>Be The <br> Light</h1>
+      <h1>Be The <br> Light</h1>
+      <h1>Be The <br> Light</h1>
+      <h1>Be The <br> Light</h1>
+      <h1>Be The <br> Light</h1>
+      <h1>Be The <br> Light</h1>
+      <h1>Be The <br> Light</h1>
+     
+    </figure>
+  </body>
+</html>
